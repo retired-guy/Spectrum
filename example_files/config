@@ -1,0 +1,21 @@
+[general]
+noise_floor = -100
+text_font = /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+audio_font = /usr/share/fonts/truetype/oswald/Oswald-Light.ttf
+alpha = 0.9
+vis = ppm
+#vis = fft
+#vis = pcm
+
+[input]
+method = shmem
+source = /squeezelite-e4:5f:01:52:e7:5f
+
+[color]
+plot_r = "#FF0000"
+plot_l = "#FFFFFF"
+ax = "#C1BDB2"
+ax_2 = "#FF0000"
+text = "#FFFFFF"
+audio = "#FFFFFF"
+
