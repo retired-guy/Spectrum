@@ -9,7 +9,7 @@ ACLOCAL_AMFLAGS = -I m4
 M_CPPFLAGS = -DSYSTEM_LIBINIPARSER=@SYSTEM_LIBINIPARSER@
 
 bin_PROGRAMS = spectrum
-spectrum_SOURCES = spectrum.c config.c lms.c cJSON.c input/common.c input/fifo.c input/shmem.c \
+spectrum_SOURCES = spectrum.c config.c input/common.c input/fifo.c input/shmem.c \
 					sigproc.c \
 					output/framebuffer.c output/fbplot.c
 spectrum_LDFLAGS = -L/usr/local/lib -Wl,-rpath /usr/local/lib 
