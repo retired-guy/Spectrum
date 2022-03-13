@@ -1,5 +1,7 @@
 # Spectrum
 A copy of Bellini (https://github.com/atisharma/bellini), with somewhat different visualizations.  
+Tested for Squeezelite on Raspberry Pi Zero 2W, with Hyperpixel 4" touchscreens, running Raspberry Pi OS Buster.
+
   Spectrum analyzer with bars and VU meter, similar to that of the RME ADI-2 DAC FS.
   DIN PPM meter split into two, similar to the meter on the Revox A-700.
   
